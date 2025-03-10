@@ -56,7 +56,7 @@ address {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
   padding-top: 188px;
@@ -86,5 +86,5 @@ address {
 
 .solution-button:hover,
 .solution-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
