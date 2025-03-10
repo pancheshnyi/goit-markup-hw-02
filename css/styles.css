@@ -103,6 +103,8 @@ address {
 .benefits {
   width: 1128px;
   height: 104px;
+  display: flex;
+  flex-direction: row;
 }
 
 .benefits-title {
@@ -118,5 +120,50 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team {
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
+}
+
+.team-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-block {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
