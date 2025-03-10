@@ -4,6 +4,11 @@ body {
   background-color: #ffffff;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -14,7 +19,7 @@ header {
 .logo-primary {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -24,7 +29,7 @@ header {
 .logo-secondary {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -41,11 +46,6 @@ address {
   flex-direction: row;
 }
 
-ul,
-ol {
-  list-style-type: none;
-}
-
 .solution {
   width: 1440px;
   height: 600px;
@@ -58,8 +58,19 @@ ol {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  padding-top: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+}
+
+/* .solution-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-left: 300px;
 }
 
 button {
@@ -72,11 +83,21 @@ button {
   padding: 16px 32px;
   width: 169px;
   height: 56px;
-}
+} */
+
 .solution-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  margin-bottom: 188px;
+  margin-left: 636px;
+  margin-right: 635px;
 }
