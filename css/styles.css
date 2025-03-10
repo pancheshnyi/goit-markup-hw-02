@@ -148,14 +148,16 @@ address {
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
+  background-color: #ffffff;
 }
 
 .team-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
