@@ -10,16 +10,19 @@ ol {
   padding: 0;
 }
 
-header {
+.header-main {
   display: flex;
   flex-direction: row;
   width: 1440px;
   height: 72px;
 }
 
-.header-nav {
-  flex-direction: row;
+.header-menu {
+  /* width: 261px;
+  height: 24px; */
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo-primary {
@@ -42,9 +45,10 @@ header {
   font-family: "Raleway", sans-serif;
 }
 
-address {
+.header-adress {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -243,7 +247,7 @@ address {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
