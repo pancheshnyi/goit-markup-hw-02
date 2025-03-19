@@ -4,13 +4,59 @@ body {
   background-color: #ffffff;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* -----------------------------HEADER--------------------------- */
+
+.header-main {
+  display: flex;
+  justify-content: space-around;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header-menu {
   justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-primary {
@@ -38,6 +84,13 @@ ol {
   font-weight: 400;
   font-style: normal;
   color: #434455;
+  display: flex;
+  flex-direction: row;
+}
+
+.adress-list {
+  display: flex;
+  flex-direction: row;
 }
 
 .adress {
@@ -66,8 +119,16 @@ ol {
   color: #404bbf;
 }
 
+/* -----------------------------HEADER--------------------------- */
+
+/* ------------------------------SOLUTION--------------------------- */
+
 .solution {
   background: #2e2f42;
+  /* width: 1440px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .solution-text {
@@ -77,9 +138,15 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  padding: 188px 472px 48px 472px;
 }
 
 .solution-button {
+  box-sizing: content-box;
+  width: 169px;
+  height: 56px;
+  border: 0;
+  border-radius: 4px;
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -88,11 +155,27 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  padding: 16px 32px;
+  margin-bottom: 188px;
 }
 
 .solution-button:hover,
 .solution-button:focus {
   background-color: #404bbf;
+}
+
+/* ------------------------------SOLUTION--------------------------- */
+
+/* ------------------------------BENEFITS--------------------------- */
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0 24px;
+}
+
+.benefits-section {
+  /* padding: 0 156px; */
 }
 
 .benefits-title {
@@ -101,6 +184,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .benefits-description {
@@ -111,6 +195,14 @@ ol {
   color: #434455;
 }
 
+/* ------------------------------BENEFITS--------------------------- */
+
+/* ------------------------------TEAM--------------------------- */
+
+.team {
+  background: #f4f4fd;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -119,10 +211,7 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-}
-
-.team {
-  background: #f4f4fd;
+  padding: 120px 639px 72px 639px;
 }
 
 .team-block {
@@ -137,6 +226,15 @@ ol {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 32px 65px 8px 65px;
+}
+
+.team-section {
+  /* padding-left: 156px; */
+  /* padding-right: 156px; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 
 .team-description {
@@ -146,10 +244,18 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding: 0 68px 32px 68px;
 }
 
+/* ------------------------------TEAM--------------------------- */
+
+/* ----------------------------PORTFOLIO--------------------------- */
+
 .portfolio-section {
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 24px;
 }
 
 .portfolio-main-title {
@@ -160,6 +266,7 @@ ol {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 120px 611px 72px 611px;
 }
 
 .portfolio-title {
@@ -168,6 +275,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 32px 226px 8px 16px;
 }
 
 .portfolio-description {
@@ -176,7 +284,12 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 0 314px 32px 16px;
 }
+
+/* ----------------------------PORTFOLIO--------------------------- */
+
+/* -----------------------------FOOTER--------------------------- */
 
 .footer-main {
   background: #2e2f42;
@@ -209,3 +322,5 @@ ol {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
+/* -----------------------------FOOTER--------------------------- */
